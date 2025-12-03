@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_USER: postgres
+      POSTGRES_MULTIPLE_DATABASES: users_db,orders_db,products_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data_v3:/var/lib/postgresql/data
+      - ./init-databases.sh:/docker-entrypoint-initdb.d/init-databases.sh
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  user-service:
+    build:
+      context: .
+      dockerfile: src/UserService/Dockerfile
+    container_name: user-service
+    ports:
+      - "5001:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=users_db;Username=postgres;Password=secret
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: on-failure
+
+  order-service:
+    build:
+      context: .
+      dockerfile: src/OrderService/Dockerfile
+    container_name: order-service
+    ports:
+      - "5002:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=orders_db;Username=postgres;Password=secret
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Services__Product=http://product-service:8080
+    depends_on:
+      postgres:
+        condition: service_healthy
+      product-service:
+        condition: service_started
+    restart: on-failure
+
+  product-service:
+    build:
+      context: .
+      dockerfile: src/ProductService/Dockerfile
+    container_name: product-service
+    ports:
+      - "5003:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=products_db;Username=postgres;Password=secret
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: on-failure
+
+  api-gateway:
+    build:
+      context: .
+      dockerfile: src/ApiGateway/Dockerfile
+    container_name: api-gateway
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Redis=redis:6379
+      - Services__User=http://user-service:8080
+      - Services__Order=http://order-service:8080
+      - Services__Product=http://product-service:8080
+    depends_on:
+      - user-service
+      - order-service
+      - product-service
+      - redis
+    restart: on-failure
+
+volumes:
+  postgres_data_v3:

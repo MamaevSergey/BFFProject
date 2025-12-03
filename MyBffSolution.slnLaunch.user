@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "src\\ApiGateway\\ApiGateway.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "src\\OrderService\\OrderService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "src\\ProductService\\ProductService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "src\\UserService\\UserService.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]

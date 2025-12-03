@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProductService.Protos";
+
+package product;
+
+service Products {
+  rpc GetProducts (GetProductsRequest) returns (ProductListResponse);
+
+  rpc GetProductById (GetProductByIdRequest) returns (ProductModel);
+}
+
+message ProductModel {
+    int32 id = 1;
+    string name = 2;
+    double price = 3;
+    string description = 4;
+}
+
+message GetProductsRequest {
+
+}
+
+message ProductListResponse {
+    repeated ProductModel products = 1;
+}
+
+message GetProductByIdRequest {
+    int32 id = 1;
+}

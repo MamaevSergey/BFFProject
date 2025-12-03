@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+appsettings.Development.json
+.env
+
+*.log
+
+docker-compose.override.yml

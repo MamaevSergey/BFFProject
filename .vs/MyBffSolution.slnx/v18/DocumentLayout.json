@@ -1,0 +1,630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spook\\Documents\\MyBffProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\migrations\\20251202164109_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\migrations\\20251202164109_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\migrations\\orderdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\migrations\\orderdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\apigateway\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967A9878-9005-C8B0-725C-1F34134168DB}|src\\ApiGateway\\ApiGateway.csproj|solutionrelative:src\\apigateway\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F6432B-6D5F-2D49-A8A3-BB8F6E73D199}|src\\UserService\\UserService.csproj|solutionrelative:src\\userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\protos\\order.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\protos\\order.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\orderservice\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D6AFB2-2E56-5C19-23C2-7D0AC365D2F9}|src\\OrderService\\OrderService.csproj|solutionrelative:src\\orderservice\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|c:\\users\\spook\\documents\\mybffproject\\src\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE867C6C-CEDE-ECCD-C92F-36AFF25C6BDF}|src\\ProductService\\ProductService.csproj|solutionrelative:src\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Program.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Program.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Program.cs",
+              "RelativeToolTip": "src\\OrderService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:46:02.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "src\\ApiGateway\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:15:54.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProductService\\Program.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Program.cs",
+              "RelativeToolTip": "src\\ProductService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:51:11.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\OrderService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\OrderService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:27:48.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.csproj",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\OrderService.csproj",
+              "RelativeDocumentMoniker": "src\\OrderService\\OrderService.csproj",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\OrderService.csproj",
+              "RelativeToolTip": "src\\OrderService\\OrderService.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T20:33:42.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\appsettings.json",
+              "RelativeToolTip": "src\\OrderService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T16:24:37.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\appsettings.json",
+              "RelativeToolTip": "src\\ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:23:39.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\OrderService\\Dockerfile",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Dockerfile",
+              "RelativeToolTip": "src\\OrderService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-03T19:06:30.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\ProductService\\Dockerfile",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Dockerfile",
+              "RelativeToolTip": "src\\ProductService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-03T19:06:36.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\ProductService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\ProductService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:28:30.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiGateway.csproj",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\ApiGateway.csproj",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\ApiGateway.csproj",
+              "RelativeToolTip": "src\\ApiGateway\\ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T22:14:16.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "src\\UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Program.cs",
+              "RelativeToolTip": "src\\UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T16:10:54.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:30:06.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251202164109_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Migrations\\20251202164109_InitialCreate.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Migrations\\20251202164109_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Migrations\\20251202164109_InitialCreate.cs",
+              "RelativeToolTip": "src\\OrderService\\Migrations\\20251202164109_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:37:37.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Migrations\\OrderDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Migrations\\OrderDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Migrations\\OrderDbContextModelSnapshot.cs",
+              "RelativeToolTip": "src\\OrderService\\Migrations\\OrderDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:37:42.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Dockerfile",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Dockerfile",
+              "RelativeToolTip": "src\\ApiGateway\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-03T19:07:04.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\UserService\\Dockerfile",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Dockerfile",
+              "RelativeToolTip": "src\\UserService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-03T19:05:28.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductService.csproj",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\ProductService.csproj",
+              "RelativeDocumentMoniker": "src\\ProductService\\ProductService.csproj",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\ProductService.csproj",
+              "RelativeToolTip": "src\\ProductService\\ProductService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T20:49:53.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "src\\UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\UserService.csproj",
+              "RelativeToolTip": "src\\UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T15:46:10.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\ApiGateway\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T14:37:15.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\ProductService\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\ProductService\\Services\\ProductService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:50:38.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "src\\ApiGateway\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:02:12.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateway\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ApiGateway\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "src\\ApiGateway\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:26:57.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "src\\UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:45:42.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\UserService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\UserService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:28:20.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\UserService\\appsettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\appsettings.json",
+              "RelativeToolTip": "src\\UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:38:09.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "user.proto",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Protos\\user.proto",
+              "RelativeDocumentMoniker": "src\\UserService\\Protos\\user.proto",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Protos\\user.proto",
+              "RelativeToolTip": "src\\UserService\\Protos\\user.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-11-29T15:39:24.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\UserService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\UserService\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T16:45:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "src\\UserService\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\UserService\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "src\\UserService\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:46:50.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "product.proto",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Protos\\product.proto",
+              "RelativeDocumentMoniker": "src\\ProductService\\Protos\\product.proto",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Protos\\product.proto",
+              "RelativeToolTip": "src\\ProductService\\Protos\\product.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-11-29T20:49:30.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "src\\ProductService\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Models\\Product.cs",
+              "RelativeToolTip": "src\\ProductService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:22:20.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Data\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ProductService\\Data\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\Data\\ProductDbContext.cs",
+              "RelativeToolTip": "src\\ProductService\\Data\\ProductDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:23:09.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Services\\OrderService.cs",
+              "RelativeToolTip": "src\\OrderService\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:59:47.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "order.proto",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Protos\\order.proto",
+              "RelativeDocumentMoniker": "src\\OrderService\\Protos\\order.proto",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Protos\\order.proto",
+              "RelativeToolTip": "src\\OrderService\\Protos\\order.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-11-29T20:58:57.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Models\\Order.cs",
+              "RelativeToolTip": "src\\OrderService\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:29:19.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Data\\OrderDbContext.cs",
+              "RelativeDocumentMoniker": "src\\OrderService\\Data\\OrderDbContext.cs",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\OrderService\\Data\\OrderDbContext.cs",
+              "RelativeToolTip": "src\\OrderService\\Data\\OrderDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:30:38.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProductService\\appsettings.json",
+              "ToolTip": "C:\\Users\\spook\\Documents\\MyBffProject\\src\\ProductService\\appsettings.json",
+              "RelativeToolTip": "src\\ProductService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T22:39:08.974Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
