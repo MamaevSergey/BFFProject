@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_MULTIPLE_DATABASES: users_db,orders_db,products_db
     ports:
-      - "5432:5432"
+      - "5135:5432"
     volumes:
       - postgres_data_v3:/var/lib/postgresql/data
       - ./init-databases.sh:/docker-entrypoint-initdb.d/init-databases.sh

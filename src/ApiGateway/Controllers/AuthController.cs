@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Grpc.Core;
-using UserService.Protos; // Используем gRPC контракт
+using UserService.Protos;
 
 namespace ApiGateway.Controllers
 {
@@ -27,17 +27,15 @@ namespace ApiGateway.Controllers
         {
             try
             {
-                // Формируем gRPC запрос
+                // gRPC запрос
                 var request = new LoginRequest
                 {
                     Email = model.Email,
                     Password = model.Password
                 };
 
-                // Отправляем в UserService
                 var response = await _userClient.LoginAsync(request);
 
-                // Возвращаем токен клиенту
                 return Ok(new
                 {
                     Token = response.Token,

@@ -1,7 +1,7 @@
 ﻿using Grpc.Core;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Distributed; // 1. Нужно для работы с Redis
-using System.Text.Json; // 2. Нужно для превращения объекта в строку JSON
+using Microsoft.Extensions.Caching.Distributed;
+using System.Text.Json;
 using OrderService.Protos;
 using UserService.Protos;
 
@@ -20,9 +20,8 @@ namespace ApiGateway.Controllers
     {
         private readonly Users.UsersClient _userClient;
         private readonly Orders.OrdersClient _orderClient;
-        private readonly IDistributedCache _cache; // 3. Внедряем интерфейс кэша
+        private readonly IDistributedCache _cache;
 
-        // Добавляем IDistributedCache в конструктор
         public UserProfileController(Users.UsersClient userClient, Orders.OrdersClient orderClient, IDistributedCache cache)
         {
             _userClient = userClient;
@@ -30,7 +29,6 @@ namespace ApiGateway.Controllers
             _cache = cache;
         }
 
-        // POST: Регистрация (без кэша)
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterUserDto model)
         {
@@ -52,27 +50,19 @@ namespace ApiGateway.Controllers
             }
         }
 
-        // GET: Профиль с КЭШИРОВАНИЕМ и Fallback
         [HttpGet("{userId}")]
         public async Task<IActionResult> GetUserProfile(int userId)
         {
-            // --- 1. ПРОВЕРКА КЭША (REDIS) ---
-            string cacheKey = $"profile_{userId}"; // Уникальный ключ, например "Bff_profile_1"
+            string cacheKey = $"profile_{userId}";
 
-            // Пытаемся быстро прочитать строку из памяти
             var cachedData = await _cache.GetStringAsync(cacheKey);
 
             if (!string.IsNullOrEmpty(cachedData))
             {
-                // УРА! Данные найдены. Сервисы не трогаем.
-                // Превращаем строку обратно в объект C#
                 var resultFromCache = JsonSerializer.Deserialize<object>(cachedData);
                 return Ok(resultFromCache);
             }
 
-            // --- 2. ЕСЛИ КЭШ ПУСТ - ИДЕМ К СЕРВИСАМ (Тяжелая работа) ---
-
-            // А. Получаем юзера
             UserResponse userResponse;
             try
             {
@@ -87,7 +77,6 @@ namespace ApiGateway.Controllers
                 return StatusCode(503, $"User Service Unavailable: {ex.Message}");
             }
 
-            // Б. Получаем заказы (с Fallback)
             object ordersData;
             try
             {
@@ -108,7 +97,6 @@ namespace ApiGateway.Controllers
                 };
             }
 
-            // В. Собираем итоговый объект
             var result = new
             {
                 UserInfo = new
@@ -120,18 +108,13 @@ namespace ApiGateway.Controllers
                 Orders = ordersData
             };
 
-            // --- 3. СОХРАНЯЕМ В КЭШ (REDIS) ---
-
-            // Настраиваем время жизни кэша (30 секунд)
             var cacheOptions = new DistributedCacheEntryOptions
             {
                 AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30)
             };
 
-            // Превращаем результат в JSON строку
             var jsonResponse = JsonSerializer.Serialize(result);
 
-            // Записываем в Redis
             await _cache.SetStringAsync(cacheKey, jsonResponse, cacheOptions);
 
             return Ok(result);

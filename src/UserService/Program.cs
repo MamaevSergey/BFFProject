@@ -1,10 +1,9 @@
-using UserService.Services; // Не забудь добавить using
+using UserService.Services;
 using Microsoft.EntityFrameworkCore;
 using UserService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddGrpc();
 
 builder.Services.AddDbContext<UserDbContext>(options =>

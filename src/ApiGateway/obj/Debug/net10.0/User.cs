@@ -781,9 +781,6 @@ namespace UserService.Protos {
     /// <summary>Field number for the "token" field.</summary>
     public const int TokenFieldNumber = 1;
     private string token_ = "";
-    /// <summary>
-    /// Возвращаем JWT токен
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Token {
@@ -796,9 +793,6 @@ namespace UserService.Protos {
     /// <summary>Field number for the "user_id" field.</summary>
     public const int UserIdFieldNumber = 2;
     private int userId_;
-    /// <summary>
-    /// И ID пользователя, пригодится
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int UserId {

@@ -9,7 +9,6 @@ namespace UserService.Data
         {
         }
 
-        // Эта строчка говорит: "В базе должна быть таблица Users, которая хранит объекты User"
         public DbSet<User> Users { get; set; }
     }
 }

@@ -11,30 +11,26 @@ var builder = WebApplication.CreateBuilder(args);
 // Redis
 builder.Services.AddStackExchangeRedisCache(options =>
 {
-    // Если в конфиге пусто, берем localhost
     options.Configuration = builder.Configuration.GetConnectionString("Redis") ?? "localhost:6379";
     options.InstanceName = "Bff_";
 });
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-// Настраиваем Swagger для поддержки JWT
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My BFF API", Version = "v1" });
 
-    // Описываем схему авторизации (Bearer)
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
-        Type = SecuritySchemeType.Http, // <--- Меняем на Http
-        Scheme = "bearer", // <--- Указываем схему
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
         Description = "Enter your valid token in the text input below.\r\n\r\nExample: \"12345abcdef\""
     });
 
-    // Требуем эту схему для всех защищенных эндпоинтов
     c.AddSecurityRequirement(new OpenApiSecurityRequirement()
     {
         {
@@ -54,12 +50,9 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// --- НАСТРОЙКА gRPC С RETRY (ПОВТОРАМИ) ---
-
 // User Service
 builder.Services.AddGrpcClient<Users.UsersClient>(o =>
 {
-    // Пытаемся взять адрес из конфига (Docker), если нет - берем localhost (Локально)
     var url = builder.Configuration["Services:User"] ?? "http://localhost:5001";
     o.Address = new Uri(url);
 })
@@ -81,10 +74,7 @@ builder.Services.AddGrpcClient<Products.ProductsClient>(o =>
 })
 .AddStandardResilienceHandler();
 
-// -------------------------------------------
-
-// НАСТРОЙКА JWT AUTHENTICATION
-var key = Encoding.ASCII.GetBytes("MySuperSecretKey_1234567890_MySuperSecretKey"); // Тот же ключ, что в UserService!
+var key = Encoding.ASCII.GetBytes("MySuperSecretKey_1234567890_MySuperSecretKey");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -93,14 +83,14 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = false; // Для localhost можно false
+    options.RequireHttpsMetadata = false;
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false, // Упрощаем для теста
-        ValidateAudience = false // Упрощаем для теста
+        ValidateIssuer = false,
+        ValidateAudience = false
     };
 });
 
@@ -112,8 +102,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseAuthentication(); // <-- Сначала проверяем "Кто ты?"
-app.UseAuthorization();  // <-- Потом проверяем "Можно ли тебе?"
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

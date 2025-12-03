@@ -10,12 +10,12 @@ namespace OrderService.Models
         public int Id { get; set; }
 
         [Required]
-        public int UserId { get; set; } // Связь с пользователем (но просто как число, без внешних ключей SQL!)
+        public int UserId { get; set; }
 
-        public int ProductId { get; set; } // ID товара
-        public string ProductName { get; set; } // Копируем имя товара (деномализация), чтобы не зависеть от ProductService
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
         public double Price { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow; // Время заказа
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

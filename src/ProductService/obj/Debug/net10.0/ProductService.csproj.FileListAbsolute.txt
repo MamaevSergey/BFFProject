@@ -136,3 +136,4 @@ C:\Users\spook\Documents\MyBffProject\src\ProductService\obj\Debug\net10.0\refin
 C:\Users\spook\Documents\MyBffProject\src\ProductService\obj\Debug\net10.0\ProductService.pdb
 C:\Users\spook\Documents\MyBffProject\src\ProductService\obj\Debug\net10.0\ProductService.genruntimeconfig.cache
 C:\Users\spook\Documents\MyBffProject\src\ProductService\obj\Debug\net10.0\ref\ProductService.dll
+C:\Users\spook\Documents\MyBffProject\src\ProductService\obj\Debug\net10.0\ProductService.sourcelink.json

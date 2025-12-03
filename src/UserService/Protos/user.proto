@@ -29,8 +29,8 @@ message LoginRequest {
 }
 
 message LoginResponse {
-    string token = 1; // Возвращаем JWT токен
-    int32 user_id = 2; // И ID пользователя, пригодится
+    string token = 1;
+    int32 user_id = 2;
 }
 
 message CreateUserRequest {

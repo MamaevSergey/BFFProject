@@ -17,7 +17,6 @@ namespace ProductService.Services
             _dbContext = dbContext;
         }
 
-        // Этот метод вызывается один раз, чтобы проверить и наполнить базу
         private async Task EnsureProductsExist()
         {
             if (!await _dbContext.Products.AnyAsync())
@@ -34,7 +33,6 @@ namespace ProductService.Services
 
         public override async Task<ProductModel> GetProductById(GetProductByIdRequest request, ServerCallContext context)
         {
-            // Проверяем наличие товаров (хак для обучения)
             await EnsureProductsExist();
 
             var product = await _dbContext.Products.FindAsync(request.Id);
@@ -52,7 +50,5 @@ namespace ProductService.Services
                 Description = product.Description
             };
         }
-
-        // Можно реализовать ListProducts, но пока нам хватит получения по ID
     }
 }

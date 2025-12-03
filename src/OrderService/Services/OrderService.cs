@@ -3,7 +3,7 @@ using OrderService.Protos;
 using OrderService.Data;
 using OrderService.Models;
 using Microsoft.EntityFrameworkCore;
-using ProductService.Protos; // Клиент товаров
+using ProductService.Protos;
 
 namespace OrderService.Services
 {
@@ -40,17 +40,12 @@ namespace OrderService.Services
             }
 
             return Task.FromResult(response).Result;
-            // Task.FromResult тут немного лишний с async, лучше просто вернуть response, 
-            // но для gRPC совместимости оставим return response;
-            return response;
         }
 
         public override async Task<CreateOrderResponse> CreateOrder(CreateOrderRequest request, ServerCallContext context)
         {
-            // 1. Идем в ProductService за инфой
             var productResponse = await _productClient.GetProductByIdAsync(new GetProductByIdRequest { Id = request.ProductId });
 
-            // 2. Создаем заказ с реальными данными
             var newOrder = new Order
             {
                 UserId = request.UserId,

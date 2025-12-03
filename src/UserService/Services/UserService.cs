@@ -67,19 +67,14 @@ namespace UserService.Services
         {
             _logger.LogInformation($"Попытка входа: {request.Email}");
 
-            // 1. Ищем пользователя в БД по Email
             var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
 
-            // 2. Проверяем пароль
-            // Внимание: В реальном проекте пароли хешируют! Тут мы сравниваем строки для простоты.
             if (user == null || user.Password != request.Password)
             {
                 throw new RpcException(new Status(StatusCode.Unauthenticated, "Invalid email or password"));
             }
 
-            // 3. Генерируем JWT Токен
             var tokenHandler = new JwtSecurityTokenHandler();
-            // Секретный ключ (должен быть длинным и сложным!)
             var key = Encoding.ASCII.GetBytes("MySuperSecretKey_1234567890_MySuperSecretKey");
 
             var tokenDescriptor = new SecurityTokenDescriptor
@@ -89,7 +84,7 @@ namespace UserService.Services
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim(ClaimTypes.Name, user.Name)
                 }),
-                Expires = DateTime.UtcNow.AddDays(7), // Токен живет 7 дней
+                Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
